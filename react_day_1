@@ -1,0 +1,25 @@
+-REact: Observer Pattern(Event based checking)
+:When there are big project and complex 
+
+-Angular: Dirty check ($Apply keep checking the dom changes.)
+:Straight fwd simple view project.
+
+-Transpiler:
+A source-to-source compiler, transcompiler or transpiler is a type of compiler that takes the source code of a program written in one programming
+language as its input and produces the equivalent source code in another programming language.
+
+-JSX:
+JS+HTML
+
+-Bubbleloader: to convert from JSX to JS that understand by browser.
+
+-Webpack:
+Taskrunner: min
+            JSX-JS
+            ES06 to ES05
+            
+-create-react-app: to do the packaging.
+
+Var:
+Let: wont let u create the same var again.
+Const: 
