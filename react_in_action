@@ -1,0 +1,19 @@
+-------------------------------------------------------------------
+Spread & Rest: are the three ... function in front of object/const.
+
+to merge the array with othre data or object with other objects.
+ex: 
+const numbers = [1, 2, 3, 4];
+const newNumbers = [...numbers, 5, 6];
+console.log(newNumbers);
+O/P: [1, 2, 3, 4, 5, 6]
+
+Rest:
+to convert the multiple args into an array.
+Ex:
+const filter = (...args)=>{
+  return args.filter(arg=> arg===1);
+}
+console.log(filter(1, 2, 3, 4));
+O/P= [1]
+-------------------------------------------------------------------
