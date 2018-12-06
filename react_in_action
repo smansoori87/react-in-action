@@ -1,7 +1,7 @@
 -------------------------------------------------------------------
 Spread & Rest: are the three ... function in front of object/const.
-
-to merge the array with othre data or object with other objects.
+-------------------------------------------------------------------
+to merge the array with othre data or object properties with other objects.
 ex: 
 const numbers = [1, 2, 3, 4];
 const newNumbers = [...numbers, 5, 6];
@@ -17,3 +17,20 @@ const filter = (...args)=>{
 console.log(filter(1, 2, 3, 4));
 O/P= [1]
 -------------------------------------------------------------------
+Destructuring
+-------------------------------------------------------------------
+to store array elements/objects properties into variables.
+const numbers = [1,2];
+[num1, num2] = numbers;
+console.log(num1, num2);
+
+const person = {name:'suhail', age:32};
+[name] = person;
+console.log(name);
+-------------------------------------------------------------------
+Create a copy of array, rather then copying the reference.
+-------------------------------------------------------------------
+const arr = {name:'sam', age:32};
+const newArr = arr;
+newArr.name = 'newSam';
+console.log(arr.name,newArr.name);
