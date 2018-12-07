@@ -2,7 +2,7 @@
 ## Table of Contents
 
 - [Basics](#Basics)
-    -[JavaScript Basics](#javascript-basics)
+	- [JavaScript Basics]
 - [Install](#install)
 - [Usage](#usage)
 	- [Generator](#generator)
@@ -17,9 +17,10 @@
 ## JavaScript Basics
 ### Spread & Rest:
 are the three ... function in front of object/const.
-## Spread:
 Spread: to merge the one array with other data or object properties.
-### Ex:
+
+Ex:
+
 ```js
 const numbers = [1, 2, 3, 4];
 const newNumbers = [...numbers, 5, 6];
