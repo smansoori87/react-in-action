@@ -2,7 +2,7 @@
 # Table of Contents
 
 - [JavaScript Basics](#javascript-basics)
-	- [Spread & Rest](#spread-&-rest)
+	- [Spread and Rest](#spread-and-rest)
 	- [Destructuring](#destructuring)
 	- [Copy of array](#copy-of-array)
 	- [Array function](#array-function)
@@ -11,7 +11,7 @@
 	- [Installation](#installation)
 
 ## JavaScript Basics
-### Spread & Rest
+### Spread and Rest
 are the three ... function in front of object/const.
 
 Spread: to merge the one array with other data or object properties.
@@ -49,7 +49,7 @@ const person = {name:'suhail', age:32};
 [name] = person;
 console.log(name);
 ```
-### Copy of array.
+### Copy of array
 
 Ex: If assigning one array to new one. it will copy the reference. so any modification in new array will change the orignal aray value.
 ```js
