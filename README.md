@@ -74,7 +74,19 @@ O/P: [1, 2, 3]
 - webpack:  js project packing
 - babel:    ES6/ES5 to normal js transpiler.
 
-<img src="react_build_workflow.png" align="right" /><br>
+<img src="react_build_workflow.png"/>
 
-# Installation Steps
-- download node.js <a href="https://nodejs.org/en/" target="_blank">click here, Ctrl+Click</a>
+# Installation
+- download node.js [click here, Ctrl+Click](https://nodejs.org/en/), and install.
+- open command prompt and type below cmd to install global react package.
+```npm
+npm install -g create-react-app
+```
+- select the directorry using cd command and execcute the below command to create the react project.
+```npm
+npm create-react-app <project name>
+```
+- go to cd <project name> directory
+```npm
+npm start
+ ```
