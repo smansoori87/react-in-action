@@ -1,19 +1,15 @@
 
-## Table of Contents
+# Table of Contents
 
-- [Basics](#Basics)
-	- [JavaScript Basics](#javascript-basics)
-- [Install](#install)
-- [Usage](#usage)
-	- [Generator](#generator)
-- [Badge](#badge)
-- [Example Readmes](#example-readmes)
-- [Related Efforts](#related-efforts)
-- [Maintainers](#maintainers)
-- [Contributing](#contributing)
-- [License](#license)
+- [JavaScript Basics](#javascript-basics)
+	- [Spread & Rest](#Spread-&-Rest)
+	- [Destructuring](#Destructuring)
+	- [Copy of array](#copy-of-array)
+	- [Array function](#array-function)
+- [Start with react](#start-with-react)
+	-[Basics of react](#basics-of-react)
+	-[Installation](#installation)
 
-# Basics
 ## JavaScript Basics
 ### Spread & Rest:
 are the three ... function in front of object/const.
@@ -25,9 +21,9 @@ Ex:
 const numbers = [1, 2, 3, 4];
 const newNumbers = [...numbers, 5, 6];
 console.log(newNumbers);
-```
-O/P: [1, 2, 3, 4, 5, 6]
 
+O/P: [1, 2, 3, 4, 5, 6]
+```
 Rest: to convert the multiple args into an array.
 
 Ex:
@@ -36,8 +32,9 @@ const filter = (...args)=>{
   return args.filter(arg=> arg===1);
 }
 console.log(filter(1, 2, 3, 4));
-```
+
 O/P= [1]
+```
 
 ### Destructuring
 to store array elements/objects properties into variables.
@@ -52,7 +49,7 @@ const person = {name:'suhail', age:32};
 [name] = person;
 console.log(name);
 ```
-### Create a copy of array, rather then copying the reference.
+### Copy of array.
 
 Ex: If assigning one array to new one. it will copy the reference. so any modification in new array will change the orignal aray value.
 ```js
@@ -60,8 +57,9 @@ const arr = {name:'sam', age:32};
 const newArr = arr;
 newArr.name = 'newSam';
 console.log(arr.name);
-```
+
 O/P: newSam
+```
 
 Solution: use spread operator.
 ```js
@@ -69,8 +67,9 @@ const arr = {name:'sam', age:32};
 const newArr = {...arr};
 newArr.name = 'newSam';
 console.log(arr.name);
-```
+
 O/P: sam
+```
 
 ### Array function 
 functions to processing each element of the array and return the new array.
@@ -83,11 +82,14 @@ const multipleArr = numbers.map((num)=>{
 });
 console.log(numbers);
 console.log(multipleArr);
-```
-O/P: [1, 2, 3]
+
+O/P: 
+[1, 2, 3]
 [2, 4, 6]
 
-# React Basics:
+```
+
+# Basics of react:
 - npm:      Node Package MAnager, a js depenedency resolver.
 - webpack:  js project packing
 - babel:    ES6/ES5 to normal js transpiler.
