@@ -73,7 +73,8 @@ O/P: [1, 2, 3]
 - npm:      Node Package MAnager, a js depenedency resolver.
 - webpack:  js project packing
 - babel:    ES6/ES5 to normal js transpiler.
-- <img src="react_build_workflow.png" align="right" />
+
+<img src="react_build_workflow.png" align="right" /><br>
 
 # Installation Steps
-- download node.js [click here, Ctrl+Click](https://nodejs.org/en/)
+- download node.js <a href="https://nodejs.org/en/" target="_blank">click here, Ctrl+Click</a>
