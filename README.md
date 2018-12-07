@@ -2,16 +2,16 @@
 # Table of Contents
 
 - [JavaScript Basics](#javascript-basics)
-	- [Spread & Rest](#Spread-&-Rest)
-	- [Destructuring](#Destructuring)
+	- [Spread & Rest](#spread-&-rest)
+	- [Destructuring](#destructuring)
 	- [Copy of array](#copy-of-array)
 	- [Array function](#array-function)
 - [Start with react](#start-with-react)
-	-[Basics of react](#basics-of-react)
-	-[Installation](#installation)
+	- [Basics of react](#basics-of-react)
+	- [Installation](#installation)
 
 ## JavaScript Basics
-### Spread & Rest:
+### Spread & Rest
 are the three ... function in front of object/const.
 
 Spread: to merge the one array with other data or object properties.
@@ -89,7 +89,7 @@ O/P:
 
 ```
 
-# Basics of react:
+# Basics of react
 - npm:      Node Package MAnager, a js depenedency resolver.
 - webpack:  js project packing
 - babel:    ES6/ES5 to normal js transpiler.
