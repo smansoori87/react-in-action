@@ -75,3 +75,5 @@ O/P: [1, 2, 3]
 - babel:    ES6/ES5 to normal js transpiler.
 <img src="react_build_workflow.png" align="right" />
 
+># Installation Steps
+- download node.js [click here, Ctrl+Click](https://nodejs.org/en/)
