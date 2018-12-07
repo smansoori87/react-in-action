@@ -33,4 +33,30 @@ Create a copy of array, rather then copying the reference.
 const arr = {name:'sam', age:32};
 const newArr = arr;
 newArr.name = 'newSam';
-console.log(arr.name,newArr.name);
+console.log(arr.name);
+O/P: newSam
+Solution: use spread operator.
+const arr = {name:'sam', age:32};
+const newArr = arr;
+newArr.name = 'newSam';
+console.log(arr.name);
+O/P: sam
+-------------------------------------------------------------------
+Array function. processing each element of the array.
+-------------------------------------------------------------------
+const numbers=[1, 2, 3];
+const multipleArr = numbers.map((num)=>{
+  return num*2;
+});
+console.log(numbers);
+console.log(multipleArr);
+O/P: 
+[1, 2, 3]
+[2, 4, 6]
+
+-------------------------------------------------------------------
+React Basics:
+-------------------------------------------------------------------
+npm: Node Package MAnager, a js depenedency resolver.
+webpack: js project packing
+babel: ES6/ES5 to normal js transpiler.
