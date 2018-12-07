@@ -1,5 +1,21 @@
 
-# Spread & Rest:
+## Table of Contents
+
+- [Basics](#Basics)
+    -[JavaScript Basics](#javascript-basics)
+- [Install](#install)
+- [Usage](#usage)
+	- [Generator](#generator)
+- [Badge](#badge)
+- [Example Readmes](#example-readmes)
+- [Related Efforts](#related-efforts)
+- [Maintainers](#maintainers)
+- [Contributing](#contributing)
+- [License](#license)
+
+# Basics
+## JavaScript Basics
+### Spread & Rest:
 are the three ... function in front of object/const.
 ## Spread:
 Spread: to merge the one array with other data or object properties.
