@@ -73,5 +73,5 @@ O/P: [1, 2, 3]
 - npm:      Node Package MAnager, a js depenedency resolver.
 - webpack:  js project packing
 - babel:    ES6/ES5 to normal js transpiler.
-<img src="react_build_workflow.png" align="center" />
+<img src="react_build_workflow.png" align="right" />
 
