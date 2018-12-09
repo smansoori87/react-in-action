@@ -281,8 +281,9 @@ shouldComponentUpdate(nextProps, nextState ){
 ## EventHandling and Binding
 ### Event Binding
 There are 2 ways of binding the event with components. 
-a. Inside Constructor
-b. From Event itself
+
+-a. Inside Constructor
+-b. From Event itself
 
 ```js
 import React from 'react'
