@@ -124,7 +124,8 @@ A component based javascript framework which uses a concept of virtual dom to re
 A javascript based indipedent userdefined module(class).
 
 Ex:
-'''js
+
+```js
 import React from 'react'
 
 class Href extends React.Component {
@@ -137,4 +138,4 @@ class Href extends React.Component {
 }
 
 export default Href; 
-'''
+```
