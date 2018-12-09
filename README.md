@@ -140,7 +140,7 @@ class Href extends React.Component {
 export default Href; 
 ```
 
-### Function
+### Functions
 An indipendent module to export the specific functionality.
 
 Ex:
