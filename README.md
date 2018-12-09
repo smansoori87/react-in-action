@@ -94,7 +94,7 @@ O/P:
 [2, 4, 6]
 
 ```
-##Start with react
+## Start with react
 ### Basics of react
 - npm:      Node Package MAnager, a js depenedency resolver.
 - webpack:  js project packing
@@ -116,3 +116,25 @@ npm create-react-app <project name>
 ```npm
 npm start
  ```
+
+## React
+A component based javascript framework which uses a concept of virtual dom to render the component changes, if it find the changes in state of component.
+
+### Component
+A javascript based indipedent userdefined module(class).
+
+Ex:
+'''js
+import React from 'react'
+
+class Href extends React.Component {
+    render() {
+        console.log(this.props);
+        return (
+            React.createElement('a',this.props, this.props.title)
+        )
+    };
+}
+
+export default Href; 
+'''
