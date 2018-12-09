@@ -325,8 +325,7 @@ export default EventHandling
 ### Supply Other Parameters
 If there is need to supply addiitional data from event.
 
-```js
-import React from 'react'
+```jsimport React from 'react'
 
 class EventHandling extends React.Component {
 
@@ -339,7 +338,7 @@ class EventHandling extends React.Component {
 
     counterHandler = (param) => {
         this.setState({
-            counter: (param === 'add') ? this.state.counter + 1 : this.state.counter - 1
+            counter: (param === 'add') ? this.state.counter + 1 : (this.state.counter === 0) ? 0 : this.state.counter - 1
         })
     }
 
