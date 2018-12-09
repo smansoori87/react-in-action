@@ -23,7 +23,7 @@
 	- [shouldComponnentUpdate](#shouldComponnentUpdate)
 	- <img src="video.png"/>[Life Cycle Video](https://www.youtube.com/watch?v=_1wGycclTnE&list=PLpdiIovPfYaS4iUQOtm-sBoNz0TEe6GXh&index=32)
 - [EventHandling and Binding](#eventhandling-and-binding)
-	- [EventBinding](#event-binding)
+	- [Event Binding](#event-binding)
 	- [Supply Other Parameters](#supply-other-parameters)
 
 
@@ -279,7 +279,7 @@ shouldComponentUpdate(nextProps, nextState ){
 ```
 
 ## EventHandling and Binding
-### EventBinding
+### Event Binding
 There are 2 ways of binding the event with components. 
 a. Inside Constructor
 b. From Event itself
