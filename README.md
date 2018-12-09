@@ -197,10 +197,6 @@ class Clock extends React.Component {
         }
     }
 
-    componentWillMount(){
-        
-    }
-
     render() {
         console.log(this.state.curentTime);
     	return (
@@ -257,4 +253,24 @@ class Clock extends React.Component {
 
 ```
 
+### componentWillMount
+Method will be invoked after constructor and before rendor of component.
+
+
+### componentWillReciveProps
+Invoke post rendor and before next rendor to validate if any changes are in props.
+```js
+componentWillReceiveProps(nextProps){
+}
+```
+
+### shouldComponentUpdate
+Invoke post componentWillReciveProps with nextProps and nextState data. Based on information we can take the decision if want to allow to update the component or not.
+
+Return value is must true/false.
+```js
+shouldComponentUpdate(nextProps, nextState ){
+	return true;
+}
+```
 
