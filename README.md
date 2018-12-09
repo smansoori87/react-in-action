@@ -14,9 +14,9 @@
 	- [functions](#functions)
 	- [Props](#props)
 	- [State](#functions)
-	- [StateFull and Stateless](#statefull-and-stateless)
-	
+		
 - [Component Life Cycle](#component-life-cycle)
+	- [StateFull and Stateless](#statefull-and-stateless)
 	- [constructor](#constructor)
 	- [componentWillMount](#componentWillMount)
 	- [render](#render)
