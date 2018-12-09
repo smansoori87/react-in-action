@@ -13,13 +13,15 @@
 	- [Component](#component)
 	- [functions](#functions)
 	- [Props](#props)
-	- [State](#functions)
+	- [State](#state)
 		
 - [Component Life Cycle](#component-life-cycle)
 	- [StateFull and Stateless](#statefull-and-stateless)
 	- [constructor](#constructor)
 	- [componentWillMount](#componentWillMount)
 	- [render](#render)
+	- [componentWillReciveProps](#componentWillReciveProps)
+	- [shouldComponnentUpdate](#shouldComponnentUpdate)
 
 ## JavaScript Basics
 ### Spread and Rest
@@ -160,3 +162,99 @@ const DigiClock = (props) => {
 
 export default DigiClock;
 ```
+
+### Props
+To transfer the information between components.
+
+Ex:
+```js
+//DigiClock.js
+import React from 'react'
+
+const DigiClock = (props) => {
+    return (
+        <div>Current Time:{props.currentTime}</div>
+    );
+}
+
+export default DigiClock;
+
+//Clock.js
+import React from 'react'
+import DigiClock from './DigiClock'
+
+class Clock extends React.Component {
+
+    currentTimeLocal = () => {
+        return new Date().toLocaleString();
+    }
+
+    constructor(props) {
+        super(props);
+        this.state = {
+            curentTime: this.currentTimeLocal(),
+            counter: 0
+        }
+    }
+
+    componentWillMount(){
+        
+    }
+
+    render() {
+        console.log(this.state.curentTime);
+    	return (
+		<div>
+	    		<DigiClock currentTime={this.state.curentTime}/>
+		</div>
+    	)
+    }
+};
+
+export default Clock;
+
+```
+
+### State
+To mantain the information with in component, and based on changes in state the render method will be invoked by React engine.
+
+Ex:
+```js
+
+```
+
+## Component Life Cycle
+### constructor
+In any component lifecycle it is the first method that will be invoked. It is must to call the super with props as fist method to supply the props data to extended component class.
+
+Ex: 
+```js
+import React from 'react'
+
+class Clock extends React.Component {
+
+    currentTimeLocal = () => {
+        return new Date().toLocaleString();
+    }
+
+    constructor(props) {
+        super(props);
+        this.state = {
+            curentTime: this.currentTimeLocal(),
+            counter: 0
+        }
+    }
+    
+    render() {
+        console.log(this.state.curentTime);
+        return (
+		<div>
+		    {this.state.curentTime}
+		</div>
+	    )
+    }
+};
+
+```
+
+
