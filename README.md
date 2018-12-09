@@ -15,6 +15,11 @@
 	- [Props](#props)
 	- [State](#functions)
 	- [StateFull and Stateless](#statefull-and-stateless)
+	
+- [Component Life Cycle](#component-life-cycle)
+	- [constructor](#constructor)
+	- [componentWillMount](#componentWillMount)
+	- [render](#render)
 
 ## JavaScript Basics
 ### Spread and Rest
