@@ -13,8 +13,7 @@
 	- [Component](#component)
 	- [functions](#functions)
 	- [Props](#props)
-	- [State](#state)
-		
+	- [State](#state)		
 - [Component Life Cycle](#component-life-cycle)
 	- [StateFull and Stateless](#statefull-and-stateless)
 	- [constructor](#constructor)
@@ -23,6 +22,10 @@
 	- [componentWillReciveProps](#componentWillReciveProps)
 	- [shouldComponnentUpdate](#shouldComponnentUpdate)
 	- <img src="video.png"/>[Life Cycle Video](https://www.youtube.com/watch?v=_1wGycclTnE&list=PLpdiIovPfYaS4iUQOtm-sBoNz0TEe6GXh&index=32)
+- [EventHandling and Binding](#eventhandling-and-binding)
+	- [EventBinding](#event-binding)
+	- [Supply Other Parameters](#supply-other-parameters)
+
 
 ## JavaScript Basics
 ### Spread and Rest
@@ -275,3 +278,80 @@ shouldComponentUpdate(nextProps, nextState ){
 }
 ```
 
+## EventHandling and Binding
+### EventBinding
+There are 2 ways of binding the event with components. 
+a. Inside Constructor
+b. From Event itself
+
+```js
+import React from 'react'
+
+class EventHandling extends React.Component{
+
+    constructor(props){
+        super(props);
+        this.state={
+            counter:0
+        };
+//This is how to bind from constructor 
+        this.counterHandler=this.counterHandler.bind(this);
+
+    }
+
+    counterHandler=()=>{
+        this.setState({
+            counter: this.state.counter+1
+        })
+    }
+
+    render(){
+        return (
+            <div>
+//Bind from Event it self.
+                //<button onClick={this.counterHandler.bind(this)}>-</button>
+		<button onClick={this.counterHandler}>-</button>
+                <span>Counter:{this.state.counter} </span>
+                <button onClick={this.counterHandler}>+</button>
+            </div>
+        )
+    }
+}
+
+export default EventHandling
+```
+
+### Supply Other Parameters
+If there is need to supply addiitional data from event.
+
+```js
+import React from 'react'
+
+class EventHandling extends React.Component {
+
+    constructor(props) {
+        super(props);
+        this.state = {
+            counter: 0
+        };
+    }
+
+    counterHandler = (param) => {
+        this.setState({
+            counter: (param === 'add') ? this.state.counter + 1 : this.state.counter - 1
+        })
+    }
+
+    render() {
+        return (
+            <div>
+                <button onClick={this.counterHandler.bind(this, 'minus')}>-</button>
+                <span>Counter:{this.state.counter} </span>
+                <button onClick={this.counterHandler.bind(this, 'add')}>+</button>
+            </div>
+        )
+    }
+}
+
+export default EventHandling
+```
