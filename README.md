@@ -139,3 +139,19 @@ class Href extends React.Component {
 
 export default Href; 
 ```
+
+### Function
+An indipendent module to export the specific functionality.
+
+Ex:
+```js
+import React from 'react'
+
+const DigiClock = (props) => {
+    return (
+        <div>Current Time:{props.currentTime}</div>
+    );
+}
+
+export default DigiClock;
+```
