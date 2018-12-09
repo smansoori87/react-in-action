@@ -9,6 +9,12 @@
 - [Start with react](#start-with-react)
 	- [Basics of react](#basics-of-react)
 	- [Installation](#installation)
+- [React](#react)
+	- [Component](#component)
+	- [functions](#functions)
+	- [Props](#props)
+	- [State](#functions)
+	- [StateFull and Stateless](#statefull-and-stateless)
 
 ## JavaScript Basics
 ### Spread and Rest
@@ -72,7 +78,7 @@ O/P: sam
 ```
 
 ### Array function 
-functions to processing each element of the array and return the new array.
+functions to process each element of the array and return the new array.
 
 Ex:
 ```js
@@ -88,15 +94,15 @@ O/P:
 [2, 4, 6]
 
 ```
-
-# Basics of react
+##Start with react
+### Basics of react
 - npm:      Node Package MAnager, a js depenedency resolver.
 - webpack:  js project packing
 - babel:    ES6/ES5 to normal js transpiler.
 
 <img src="react_build_workflow.png"/>
 
-# Installation
+### Installation
 - download node.js [click here, Ctrl+Click](https://nodejs.org/en/), and install.
 - open command prompt and type below cmd to install global react package.
 ```npm
