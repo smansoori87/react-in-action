@@ -22,7 +22,7 @@
 	- [render](#render)
 	- [componentWillReciveProps](#componentWillReciveProps)
 	- [shouldComponnentUpdate](#shouldComponnentUpdate)
-	- [Life Cycle Video](#https://www.youtube.com/watch?v=_1wGycclTnE&list=PLpdiIovPfYaS4iUQOtm-sBoNz0TEe6GXh&index=32)
+	- [Life Cycle Video](https://www.youtube.com/watch?v=_1wGycclTnE&list=PLpdiIovPfYaS4iUQOtm-sBoNz0TEe6GXh&index=32)
 
 ## JavaScript Basics
 ### Spread and Rest
