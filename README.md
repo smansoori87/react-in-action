@@ -21,7 +21,7 @@
 	- [render](#render)
 	- [componentWillReciveProps](#componentWillReciveProps)
 	- [shouldComponnentUpdate](#shouldComponnentUpdate)
-	- <img src="video.png"/>[Life Cycle Video](https://www.youtube.com/watch?v=_1wGycclTnE&list=PLpdiIovPfYaS4iUQOtm-sBoNz0TEe6GXh&index=32)
+	- [<img src="video.png"/> Life Cycle Video](https://www.youtube.com/watch?v=_1wGycclTnE&list=PLpdiIovPfYaS4iUQOtm-sBoNz0TEe6GXh&index=32)
 - [EventHandling and Binding](#eventhandling-and-binding)
 	- [Event Binding](#event-binding)
 	- [Supply Other Parameters](#supply-other-parameters)
