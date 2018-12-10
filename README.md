@@ -114,7 +114,7 @@ O/P:
 <img src="react_build_workflow.png"/>
 
 ### Installation
-- download node.js [click here, Ctrl+Click](https://nodejs.org/en/), and install.
+- download node.js [click here to download..., Ctrl+Click](https://nodejs.org/en/), and install.
 - open command prompt and type below cmd to install global react package.
 ```npm
 npm install -g create-react-app
