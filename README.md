@@ -325,7 +325,8 @@ export default EventHandling
 ### Supply Other Parameters
 If there is need to supply addiitional data from event.
 
-```jsimport React from 'react'
+```js
+import React from 'react'
 
 class EventHandling extends React.Component {
 
